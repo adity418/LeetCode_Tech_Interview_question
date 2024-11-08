@@ -2,8 +2,8 @@
 
 from collections import defaultdict
 
-class Solution:
-    def findSubstring(self, s: str, words: List[str]) -> List[int]:
+class Solution30:
+    def findSubstring(self, s, words):
         if not s or not words:
             return []
 
